@@ -1,0 +1,247 @@
+/* ==============================
+   Estilos generales
+   ============================== */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fdfcdc; /* Amarillo crema muy claro */
+}
+
+/* ==============================
+   Navbar personalizada
+   ============================== */
+.navbar-custom {
+    background: linear-gradient(90deg, #ffe8a1, #ffd3b5);
+}
+
+.navbar-custom .nav-link {
+    color: #333;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #ffa0ac; /* Rosa vibrante suave */
+}
+
+/* ==============================
+   Botones pastel
+   ============================== */
+.btn-pastel-primary {
+    background-color: #a0e7e5;
+    color: #000;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.btn-pastel-primary:hover {
+    background-color: #ffd3b5;
+    color: #000;
+}
+
+.btn-pastel-success {
+    background-color: #b9fbc0;
+    color: #000;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.btn-pastel-success:hover {
+    background-color: #fab8b8;
+    color: #fff;
+}
+
+.btn-pastel-warning {
+    background-color: #fff5ba;
+    color: #000;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.btn-pastel-danger {
+    background-color: #ffb3c1;
+    color: #000;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+/* ==============================
+   Tarjetas pastel
+   ============================== */
+.card-pastel {
+    background-color: #fff0f5; /* Rosa muy claro */
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    color: #333;
+    transition: transform 0.3s, box-shadow 0.3s;
+    min-height: 250px;
+}
+
+.card-pastel:hover,
+.hover-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.card-header-pastel {
+    background-color: #ffd6e0;
+}
+
+.card-pastel .card-title {
+    color: #333;
+}
+
+.card-pastel .card-text {
+    color: #555;
+}
+
+/* ==============================
+   Inputs pastel
+   ============================== */
+.form-control-pastel {
+    border-radius: 10px;
+    padding: 12px;
+    border: 1px solid #ffd3b5;
+    transition: 0.3s;
+}
+
+.form-control-pastel:focus {
+    border-color: #fab8b8;
+    box-shadow: 0 0 10px rgba(255,160,172,0.4);
+    outline: none;
+}
+
+/* ==============================
+   Footer pastel
+   ============================== */
+.footer-pastel {
+    background-color: #e0f7fa;
+    color: #333;
+    font-weight: 500;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* ==============================
+   Badges pastel
+   ============================== */
+.badge-pastel {
+    background-color: #cdb4db;
+    color: #000;
+}
+
+/* ==============================
+   Fondo ligero para secciones
+   ============================== */
+.bg-pastel-light {
+    background-color: #fef6fb;
+}
+
+/* ==============================
+   Mensajes de alerta
+   ============================== */
+.alert-login-danger {
+    background-color: #ffb3b3;
+    color: #800000;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.alert-login-success {
+    background-color: #d8f79a;
+    color: #4b7500;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+/* ==============================
+   Tarjetas de credenciales
+   ============================== */
+.credential-card {
+    background-color: #ffe8a1;
+    padding: 8px 12px;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* ==============================
+   Página de login con fondo
+   ============================== */
+body.login-page {
+    background: url('https://wallpapers.com/images/featured/paisajes-2iz0murq98x75o3c.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card {
+    background: rgba(255, 248, 240, 0.9);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.login-card input {
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ffd3b5;
+    transition: 0.3s;
+}
+
+.login-card input:focus {
+    border-color: #fab8b8;
+    box-shadow: 0 0 10px rgba(255,160,172,0.4);
+    outline: none;
+}
+
+.login-card button {
+    border-radius: 50px;
+    background-color: #ffa0ac;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    padding: 12px;
+    transition: 0.3s;
+}
+
+.login-card button:hover {
+    background-color: #fab8b8;
+    color: #fff;
+}
+
+/* ==============================
+   Textos y encabezados
+   ============================== */
+h1.fw-bold {
+    color: #333;
+}
+
+p.lead {
+    color: #555;
+}
+
+/* ==============================
+   Centrado y espacio
+   ============================== */
+.text-center.mb-5 {
+    margin-bottom: 3rem;
+}
+
+.row.text-center .col-md-4 {
+    display: flex;
+    justify-content: center;
+}
